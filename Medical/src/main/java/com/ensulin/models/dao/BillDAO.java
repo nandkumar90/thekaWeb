@@ -12,7 +12,7 @@ public interface BillDAO {
 
 	public boolean savetemp(InternalBill _bill);
 	
-	//this only before billing confirmed
+	//this only before billing confirmed test
 	public boolean delete(long _billid);
 	
 	public List<InternalBill> getAll();
